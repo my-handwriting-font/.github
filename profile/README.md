@@ -28,12 +28,12 @@
 3. 폰트 생성을 요청하면 Spring이 DB에서 사용자의 자모를 불러와 FastAPI에 전달하고, FastAPI가 6가지 배치 규칙으로 글자를 합성해 TTF 파일을 만듭니다.
 
 <p align="center">
-  <img src="images/layout_6types.png" width="560" alt="음절 배치 틀 6가지">
+  <img src="readme_images/images/layout_6types.png" width="560" alt="음절 배치 틀 6가지">
   <br><sub>음절 배치 틀 6가지</sub>
 </p>
 
 <p align="center">
-  <img src="images/ttf_process.png" width="760" alt="TTF 생성 과정">
+  <img src="readme_images/images/ttf_process.png" width="760" alt="TTF 생성 과정">
   <br><sub>TTF 생성 과정</sub>
 </p>
 
@@ -58,26 +58,26 @@
 ### 생성된 폰트로 쓴 문서
 
 <p align="center">
-  <img src="images/font_sample.png" width="600" alt="생성된 폰트를 적용한 문서">
+  <img src="readme_images/images/font_sample.png" width="600" alt="생성된 폰트를 적용한 문서">
 </p>
 
 ### 실행 화면
 
 <table>
   <tr>
-    <td align="center"><img src="images/main_screen.png" width="300" alt="메인 화면"><br><sub>메인 화면</sub></td>
-    <td align="center"><img src="images/font_maker_screen.png" width="520" alt="폰트 만들기 화면"><br><sub>폰트 만들기 화면 (자모 26자 입력)</sub></td>
+    <td align="center"><img src="readme_images/images/main_screen.png" width="300" alt="메인 화면"><br><sub>메인 화면</sub></td>
+    <td align="center"><img src="readme_images/images/font_maker_screen.png" width="520" alt="폰트 만들기 화면"><br><sub>폰트 만들기 화면 (자모 26자 입력)</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="images/my_fonts.png" width="300" alt="내 폰트 목록"><br><sub>내 폰트 목록</sub></td>
-    <td align="center"><img src="images/font_make_done.png" width="520" alt="폰트 생성 완료"><br><sub>폰트 이름·획 두께 설정 및 생성 완료</sub></td>
+    <td align="center"><img src="readme_images/images/my_fonts.png" width="300" alt="내 폰트 목록"><br><sub>내 폰트 목록</sub></td>
+    <td align="center"><img src="readme_images/images/font_make_done.png" width="520" alt="폰트 생성 완료"><br><sub>폰트 이름·획 두께 설정 및 생성 완료</sub></td>
   </tr>
 </table>
 
 ### 자모 검증
 
 <p align="center">
-  <img src="images/jamo_verify.png" width="760" alt="자모 검증 결과">
+  <img src="readme_images/images/jamo_verify.png" width="760" alt="자모 검증 결과">
   <br><sub>왼쪽: 통과 / 오른쪽: 실패 (인식 결과와 유사도를 함께 표시)</sub>
 </p>
 
@@ -86,7 +86,7 @@
 Kaggle 한글 음절 데이터를 자모 단위로 나눈 26만 장으로 학습했습니다 (64×64, 10 epoch).
 
 <p align="center">
-  <img src="images/cnn_training_curve.png" width="640" alt="CNN 학습 정확도와 손실">
+  <img src="readme_images/images/cnn_training_curve.png" width="640" alt="CNN 학습 정확도와 손실">
   <br><sub>CNN 학습 정확도와 손실 (검증 정확도 99.61%)</sub>
 </p>
 
