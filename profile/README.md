@@ -96,9 +96,9 @@ Kaggle 한글 음절 데이터를 자모 단위로 나눈 26만 장으로 학습
 
 | Repository | 설명 | 기술 스택 |
 | --- | --- | --- |
-| handwriting-frontend | 손글씨 입력, 검증 결과 확인, 폰트 생성 화면을 제공하는 웹 앱 (iPad Safari) | Flutter, Dart |
-| handwriting-backend | 회원 관리, 자모 데이터 저장, AI 서버 연동을 담당하는 API 서버 | Spring Boot, JPA, MySQL |
-| handwriting-fastapi | CNN 기반 자모 분류, 코사인 유사도 검증, 글자 합성 및 TTF 생성 서버 | FastAPI, Python, CNN |
+| [handwriting-frontend](https://github.com/my-handwriting-font/handwriting-frontend) | 손글씨 입력, 검증 결과 확인, 폰트 생성 화면을 제공하는 웹 앱 (iPad Safari) | Flutter, Dart |
+| [handwriting-backend](https://github.com/my-handwriting-font/handwriting-backend) | 회원 관리, 자모 데이터 저장, AI 서버 연동을 담당하는 API 서버 | Spring Boot, JPA, MySQL |
+| [handwriting-fastapi](https://github.com/my-handwriting-font/handwriting-fastapi) | CNN 기반 자모 분류, 코사인 유사도 검증, 글자 합성 및 TTF 생성 서버 | FastAPI, Python, CNN |
 
 <br>
 
